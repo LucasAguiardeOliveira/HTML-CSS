@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de Imagem Flexível</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>abaixo você verá uma imagem em dois tamanhos dependendo do tamanho da sua aba de navegação: 640 ou 350.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/montanha-200.jpg" type="image/jpg">
+   <source media="(max-width: 1050px)" srcset="imagens/montanha-350.jpg" type="image/jpg">
+   <img src="imagens/montanha-640.jpg" alt="Imagem Flexível">
+    </picture>
+    <p>Desafio 7 concluído!</p>
+</body>
+</html>
